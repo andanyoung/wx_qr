@@ -1,0 +1,22 @@
+.qr-value{
+  background-color: white;
+  width: 100%;
+  height: 250rpx;
+}
+.container{
+  height: 100%;
+}
+.qr-container {
+  margin-top: 50rpx;
+  background-color: white;
+  width: 90%;
+  height: 250rpx;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+}
+.saoyisao{
+  bottom: 50rpx;
+}
+.getqr{
+  margin-top: 20rpx;
+}
+

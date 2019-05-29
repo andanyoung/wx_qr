@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="qr-container">
+  <textarea class='qr-value'  placeholder="请输入二维码内容" value='{{qrvalue}}'   selection-start="1" selection-end = "1"/>
+  </view>
+<canvas canvas-id="canvas" style="width: 300px; height: 300px"></canvas>
+  <button class='getqr' type="primary"  disabled="{{disabled}}" bindtap="createQr"> 生成二维吗 </button>
+
+  <button class='saoyisao' type="primary" bindtap="primary" plain> 扫一扫 </button>
+
+</view>
